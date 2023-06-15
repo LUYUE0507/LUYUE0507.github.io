@@ -7,23 +7,42 @@
 			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
 </head>
-
 <header>
+<section id="Nav" class="Nav">
+<div class="container-fluid d-flex justify-content-center align-items-center">
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="active" href="portfolio.html">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Resume">Resume</a></li>
+          <li><a href="#Awards">Awards</a></li>
+          <li><a href="#Portfolios">Portfolios</a></li>
+
+        </ul>
+
+      </nav><!-- .navbar -->
+    </div>
+
+	</section>
+<br>
+			<br>
 	<p class="h1">欢迎来到LY's Portfolios</p>
 <p>可以告诉我你的名字嘛?</p>
 <input type="text" id="nameInput">
 <br>
 <br>
-<button type="button" class="btn btn-outline-light" onclick="greetUser()">提交</button>
+<button type="button" class="btn btn-outline-dark" onclick="greetUser()">提交</button>
 <br>
 <br>
 
 </header>
 <br>
-
-<h2>Resume</h2>
+<section id="About" class="About">
+	<br>
+<h2>About</h2>
 <!--copy-->
-<section id="about" class="about">
+
 		<div class="container" data-aos="fade-up">
 
 			<div class="section-title">
@@ -64,7 +83,7 @@
 					</p>
 					<div class="row">
 						<div class="col-lg-6">
-							<ul>
+							<ul style="line-height: 2.5">
 								<li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>7 May 2003</span></li>
 								<li><i class="bi bi-chevron-right"></i> <strong>Major:</strong> <span>公共关系学</span></li>
 								<li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>13120581281</span></li>
@@ -72,7 +91,7 @@
 							</ul>
 						</div>
 						<div class="col-lg-6">
-							<ul>
+							<ul  style="line-height: 2.5">
 								<li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>20</span></li>
 								<li><i class="bi bi-chevron-right"></i> <strong>GPA:</strong> <span>3.92</span></li>
 								<li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>ly13120581281@163.com</span></li>
@@ -91,12 +110,13 @@
 		</div>
 	</section><!-- End About Section -->
 	<br>
+	<section id="Resume" class="Resume">
 	<br>
-<h2>Experience</h2>
-<section id="experience" class="experience">
+<h2>Resume</h2>
+
 <div class="container">
 
-<div class="list-group" >
+<div class="list-group"  class="col align-self-center">
   <a href="#" class="list-group-item list-group-item-action">陆阅，中国传媒大学广告学院2021级公共关系学学生。目前担任广告学院团委组织部部长、21级公共关系学班团支书、中国传媒大学抖音互联网创新项目组成员。</a>
 
   <a href="#" class="list-group-item list-group-item-action list-group-item-primary">2021年9月至今担任2021级公共关系学班团支书，曾与其他班委一起组织开展过“党的青年运动史”、“学习二十大、永远跟党走、奋进新征程”等专题学习会和“国王与天使”“建团百年献礼|《光荣啊，中国共青团》MV翻拍”等主题团日活动。</a>
@@ -109,12 +129,40 @@
   <a href="#" class="list-group-item list-group-item-action list-group-item-dark">2023年3月，担任“第九届中国大学生公共关系策划创业大赛启动仪式”会务组组长。</a>
 </div>
 </div>
-</section>
+
 <br>
+	</section>
+<section id="Awards" class="Awards">
+	<br>
+	<h2>Awards</h2>
+	</section>
+	<div class="container overflow-hidden text-center">
+	  <div class="row justify-content-center gx-5 ">
+	    <div class="col">
+	     <div class="p-3">
+				 <div class="card" style="width: 18rem;">
+   <img src="获奖1.png" class="card-img-top" alt="...">
+   <div class="card-body">
+     <p class="card-text justify-content-center">负责的策划案《圆桌见面会——云南白药x日食记联名营销方案》在2022 学院奖秋季征集活动获“优秀类”成绩。</p><br>
+   </div>
+ </div>
+			 </div>
+	    </div>
+	    <div class="col">
+	      <div class="p-3">
+					<div class="card" style="width: 18rem;">
+	  <img src="获奖2.jpg" class="card-img-top" alt="...">
+	  <div class="card-body">
+	    <p class="card-text justify-content-center">参与的“健康中国背景下，一线城市年轻群体对人体工学产品消费意愿及其影响因素的调研（以北京市中小学生父母为例）”获得了全国大学生市场调查与分析大赛校级二等奖。</p>
+	  </div>
+	</div>
+</div>
+	    </div>
+	  </div>
+	</div>
 
-
-
-
+<section id="Portfolios" class="Portfolios">
+	<br>
 <h2>Portfolios</h2>
 
 <h6><strong>请点击左侧导航栏查看对应作品</strong></h6>
@@ -233,7 +281,7 @@
 	</div>
 	</div>
 </div>
-
+	</section>
 
 	<script src="script.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
