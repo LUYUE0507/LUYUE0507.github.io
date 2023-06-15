@@ -10,6 +10,53 @@ header {
 	padding: 10px;
 	text-align: center;
 }
+h2{
+text-align: center;
+font-size: 32px;
+font-weight: bold;
+color: #4c4c4c;
+margin-top: 40px;
+margin-bottom: 40px;
+text-transform: capitalize;
+letter-spacing: 1px;
+line-height: 1.5;
+}
+
+h3{
+text-align: left;
+font-size: 20px;
+margin-top: 10px;
+margin-bottom: 20px;
+text-transform: capitalize;
+letter-spacing: 1px;
+line-height: 1.5;
+}
+
+h6{
+text-align: center;
+font-size: 20px;
+margin-top: 0px;
+margin-bottom: 40px;
+text-transform: capitalize;
+letter-spacing: 1px;
+line-height: 1.5;
+}
+h4 {
+  text-align: left;
+  margin-left: 40px;
+	maigin:10px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+.body h2 {
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
 
 nav {
 	display: flex;
@@ -70,9 +117,53 @@ section h2 {
 	font-size: 1.2rem;
 }
 
-footer {
-	background-color: #333;
-	color: #fff;
-	text-align: center;
-	padding: 1rem;
+
+
+# About
+--------------------------------------------------------------*/
+.about .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #728394;
+}
+.about .content h2 {
+font-family: Arial, sans-serif;
+font-size: 36px;
+font-weight: bold;
+color: #333;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.experience .container {
+	display: flex;
+	justify-content: center;
+}
+
+.about .content ul strong {
+  margin-right: 10px;
+}
+
+.about .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #0563bb;
+  line-height: 0;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+	text-align: left; /* 文本两端对齐 */
+  font-size: 16px; /* 文字大小 */
+  line-height: 1.5; /* 行高 */
+  margin-bottom: 20px; /* 段落与下一个段落之间的距离 */
 }
