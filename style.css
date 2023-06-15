@@ -4,10 +4,11 @@
  top: 0;
  left: 0;
  width: 100%;
+ 	background-color:  #e9e8e6;
 }
 
 	#About {
-	  margin-top: 50px; 
+	  margin-top: 50px;
 	}
 /*--------------------------------------------------------------
 # Header Social Links
